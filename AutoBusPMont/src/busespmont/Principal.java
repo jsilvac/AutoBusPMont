@@ -32,6 +32,8 @@ public class Principal extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
+        jPanel11 = new javax.swing.JPanel();
+        jScrollBar1 = new javax.swing.JScrollBar();
         jPanel5 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -134,15 +136,36 @@ public class Principal extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Felix Titling", 1, 24)); // NOI18N
         jLabel1.setText("AUTO BUS PUERTO MONTT");
 
+        jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                .addGap(0, 542, Short.MAX_VALUE)
+                .addComponent(jScrollBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 510, Short.MAX_VALUE)
+        );
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 873, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(305, 305, 305)
+                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(12, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 530, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Finaliza Compra", jPanel3);
@@ -340,7 +363,7 @@ public class Principal extends javax.swing.JFrame {
                         .addGap(64, 64, 64)
                         .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(94, Short.MAX_VALUE))
+                .addContainerGap(98, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Ingreso", jPanel5);
@@ -397,281 +420,326 @@ public class Principal extends javax.swing.JFrame {
         jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel12.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox2.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox2.setText("1");
         jCheckBox2.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
+        jCheckBox2.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox4.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox4.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox4.setLabel("5");
+        jCheckBox4.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox3.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox3.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox3.setLabel("9");
+        jCheckBox3.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox5.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox5.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox5.setLabel("17");
+        jCheckBox5.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox6.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox6.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox6.setLabel("13");
+        jCheckBox6.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox7.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox7.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox7.setLabel("25");
+        jCheckBox7.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox8.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox8.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox8.setLabel("21");
+        jCheckBox8.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox9.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox9.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox9.setLabel("41");
+        jCheckBox9.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox10.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox10.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox10.setLabel("37");
+        jCheckBox10.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox11.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox11.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox11.setLabel("33");
+        jCheckBox11.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox12.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox12.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox12.setLabel("29");
+        jCheckBox12.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox13.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox13.setText("2");
         jCheckBox13.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
+        jCheckBox13.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox14.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox14.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox14.setLabel("6");
+        jCheckBox14.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox15.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox15.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox15.setLabel("10");
+        jCheckBox15.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox16.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox16.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox16.setLabel("14");
+        jCheckBox16.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox17.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox17.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox17.setLabel("18");
+        jCheckBox17.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox18.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox18.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox18.setLabel("22");
+        jCheckBox18.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox19.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox19.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox19.setLabel("26");
+        jCheckBox19.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox20.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox20.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox20.setLabel("30");
+        jCheckBox20.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox21.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox21.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox21.setLabel("34");
+        jCheckBox21.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox22.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox22.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox22.setLabel("38");
+        jCheckBox22.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox23.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox23.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox23.setLabel("42");
+        jCheckBox23.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox24.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox24.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox24.setLabel("4");
+        jCheckBox24.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox25.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox25.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox25.setLabel("8");
+        jCheckBox25.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox26.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox26.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox26.setLabel("12");
+        jCheckBox26.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox27.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox27.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox27.setLabel("16");
+        jCheckBox27.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox28.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox28.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox28.setLabel("20");
+        jCheckBox28.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox29.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox29.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox29.setLabel("24");
+        jCheckBox29.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox30.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox30.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox30.setLabel("27");
+        jCheckBox30.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox31.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox31.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox31.setLabel("32");
+        jCheckBox31.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox32.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox32.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox32.setLabel("36");
+        jCheckBox32.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox33.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox33.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox33.setLabel("40");
+        jCheckBox33.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox34.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox34.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox34.setLabel("44");
+        jCheckBox34.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox35.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox35.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox35.setLabel("3");
+        jCheckBox35.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox36.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox36.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox36.setLabel("7");
+        jCheckBox36.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox37.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox37.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox37.setLabel("11");
+        jCheckBox37.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox38.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox38.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox38.setLabel("15");
+        jCheckBox38.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox39.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox39.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox39.setLabel("19");
+        jCheckBox39.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox40.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox40.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox40.setLabel("23");
+        jCheckBox40.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox41.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox41.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox41.setLabel("28");
+        jCheckBox41.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox42.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox42.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox42.setLabel("31");
+        jCheckBox42.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox43.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox43.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox43.setLabel("35");
+        jCheckBox43.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox44.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox44.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox44.setLabel("39");
+        jCheckBox44.setSize(new java.awt.Dimension(5, 0));
 
         jCheckBox45.setFont(new java.awt.Font("sansserif", 3, 18)); // NOI18N
         jCheckBox45.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jCheckBox45.setLabel("43");
+        jCheckBox45.setSize(new java.awt.Dimension(5, 0));
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
-                .addGap(50, 50, 50)
+                .addContainerGap()
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel12Layout.createSequentialGroup()
-                        .addComponent(jCheckBox35, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox35, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox36, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox36, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox37, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox37, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox38, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox38, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox39, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox39, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox40, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox40, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox41, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox41, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox42, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox42, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox43, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox43, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox44, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jCheckBox44, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox45, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jCheckBox45, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(jPanel12Layout.createSequentialGroup()
-                            .addComponent(jCheckBox24, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel12Layout.createSequentialGroup()
+                            .addComponent(jCheckBox24, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox25, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox26, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox26, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox27, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox27, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox28, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox28, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox29, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox29, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox30, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox30, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox31, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox31, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox32, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox32, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox33, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jCheckBox33, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jCheckBox34, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jCheckBox34, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel12Layout.createSequentialGroup()
-                                .addComponent(jCheckBox13, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox14, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox14, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox15, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox15, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox16, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox16, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox17, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox17, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox18, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox18, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox19, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox19, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox20, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox20, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox21, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox21, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox22, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox23, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jCheckBox23, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel12Layout.createSequentialGroup()
-                                .addComponent(jCheckBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox6, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox6, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox8, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox8, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox12, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox11, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jCheckBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox9, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(32, Short.MAX_VALUE))
+                                .addComponent(jCheckBox9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(8, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -705,7 +773,6 @@ public class Principal extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jCheckBox24)
-                    .addComponent(jCheckBox25)
                     .addComponent(jCheckBox26)
                     .addComponent(jCheckBox27)
                     .addComponent(jCheckBox28)
@@ -714,8 +781,9 @@ public class Principal extends javax.swing.JFrame {
                     .addComponent(jCheckBox31)
                     .addComponent(jCheckBox32)
                     .addComponent(jCheckBox33)
-                    .addComponent(jCheckBox34))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(jCheckBox34)
+                    .addComponent(jCheckBox25))
+                .addGap(14, 14, 14)
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jCheckBox35)
                     .addComponent(jCheckBox36)
@@ -735,17 +803,17 @@ public class Principal extends javax.swing.JFrame {
         jPanel10.setLayout(jPanel10Layout);
         jPanel10Layout.setHorizontalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addContainerGap(39, Short.MAX_VALUE)
-                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(48, 48, 48))
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addGap(41, 41, 41)
+                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(37, Short.MAX_VALUE))
         );
 
         jLabel11.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
@@ -768,21 +836,23 @@ public class Principal extends javax.swing.JFrame {
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel11)
                             .addComponent(jLabel12))
-                        .addGap(49, 49, 49)
+                        .addGap(18, 18, 18)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel6Layout.createSequentialGroup()
+                                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE))))
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGap(263, 263, 263)
                         .addComponent(jLabel13)))
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addGap(37, 37, 37))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 81, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel11))
@@ -963,6 +1033,7 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -973,6 +1044,7 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JSpinner jS_Destino;
+    private javax.swing.JScrollBar jScrollBar1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField jT_Canti_pasajeros;
     private javax.swing.JTextField jT_DV;

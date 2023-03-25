@@ -134,15 +134,54 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="873" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="305" max="-2" attributes="0"/>
+                          <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="12" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="530" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="14" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel11">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="542" max="32767" attributes="0"/>
+                              <Component id="jScrollBar1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollBar1" alignment="0" pref="510" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JScrollBar" name="jScrollBar1">
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="jPanel5">
               <Constraints>
@@ -216,7 +255,7 @@
                               </Group>
                               <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="94" max="32767" attributes="0"/>
+                          <EmptySpace pref="98" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -527,10 +566,13 @@
                                       <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jPanel10" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
                                   </Group>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
@@ -538,7 +580,7 @@
                                   <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace pref="35" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -547,7 +589,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="77" max="32767" attributes="0"/>
+                          <EmptySpace pref="81" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
@@ -654,19 +696,19 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jPanel12" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="jPanel12" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace pref="39" max="32767" attributes="0"/>
-                              <Component id="jPanel12" min="-2" pref="144" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="jPanel12" min="-2" pref="153" max="-2" attributes="0"/>
+                              <EmptySpace pref="37" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -679,112 +721,115 @@
                             <EtchetBorder/>
                           </Border>
                         </Property>
+                        <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[5, 0]"/>
+                        </Property>
                       </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
-                                          <Component id="jCheckBox35" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox35" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox36" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox36" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox37" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox37" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox38" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox38" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox39" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox39" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox40" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox40" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox41" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox41" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox42" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox42" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox43" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox43" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox44" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox44" min="-2" pref="50" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jCheckBox45" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox45" min="-2" pref="50" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <Component id="jCheckBox24" min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jCheckBox24" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox25" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox25" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox26" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox26" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox27" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox27" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox28" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox28" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox29" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox29" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox30" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox30" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox31" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox31" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox32" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox32" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox33" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox33" min="-2" pref="50" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox34" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <Component id="jCheckBox34" min="-2" pref="50" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" attributes="0">
-                                                  <Component id="jCheckBox13" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox13" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox14" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox14" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox15" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox15" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox16" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox16" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox17" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox17" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox18" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox18" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox19" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox19" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox20" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox20" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox21" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox21" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox22" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox22" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox23" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox23" min="-2" pref="50" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" attributes="0">
-                                                  <Component id="jCheckBox2" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox2" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox4" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox4" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox3" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox3" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox6" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox6" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox5" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox5" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox8" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox8" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox7" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox7" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox12" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox12" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox11" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox11" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox10" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox10" min="-2" pref="50" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox9" min="-2" pref="42" max="-2" attributes="0"/>
+                                                  <Component id="jCheckBox9" min="-2" pref="50" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace pref="32" max="32767" attributes="0"/>
+                                  <EmptySpace pref="8" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -822,7 +867,6 @@
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jCheckBox24" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox25" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jCheckBox26" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jCheckBox27" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jCheckBox28" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -832,8 +876,9 @@
                                       <Component id="jCheckBox32" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jCheckBox33" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jCheckBox34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox25" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jCheckBox35" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jCheckBox36" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -860,6 +905,9 @@
                             </Property>
                             <Property name="text" type="java.lang.String" value="1"/>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox4">
@@ -869,6 +917,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="5"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox3">
@@ -878,6 +929,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="9"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox5">
@@ -887,6 +941,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="17"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox6">
@@ -896,6 +953,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="13"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox7">
@@ -905,6 +965,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="25"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox8">
@@ -914,6 +977,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="21"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox9">
@@ -923,6 +989,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="41"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox10">
@@ -932,6 +1001,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="37"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox11">
@@ -941,6 +1013,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="33"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox12">
@@ -950,6 +1025,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="29"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox13">
@@ -959,6 +1037,9 @@
                             </Property>
                             <Property name="text" type="java.lang.String" value="2"/>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox14">
@@ -968,6 +1049,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="6"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox15">
@@ -977,6 +1061,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="10"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox16">
@@ -986,6 +1073,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="14"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox17">
@@ -995,6 +1085,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="18"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox18">
@@ -1004,6 +1097,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="22"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox19">
@@ -1013,6 +1109,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="26"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox20">
@@ -1022,6 +1121,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="30"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox21">
@@ -1031,6 +1133,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="34"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox22">
@@ -1040,6 +1145,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="38"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox23">
@@ -1049,6 +1157,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="42"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox24">
@@ -1058,6 +1169,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="4"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox25">
@@ -1067,6 +1181,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="8"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox26">
@@ -1076,6 +1193,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="12"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox27">
@@ -1085,6 +1205,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="16"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox28">
@@ -1094,6 +1217,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="20"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox29">
@@ -1103,6 +1229,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="24"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox30">
@@ -1112,6 +1241,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="27"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox31">
@@ -1121,6 +1253,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="32"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox32">
@@ -1130,6 +1265,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="36"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox33">
@@ -1139,6 +1277,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="40"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox34">
@@ -1148,6 +1289,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="44"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox35">
@@ -1157,6 +1301,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="3"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox36">
@@ -1166,6 +1313,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="7"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox37">
@@ -1175,6 +1325,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="11"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox38">
@@ -1184,6 +1337,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="15"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox39">
@@ -1193,6 +1349,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="19"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox40">
@@ -1202,6 +1361,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="23"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox41">
@@ -1211,6 +1373,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="28"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox42">
@@ -1220,6 +1385,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="31"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox43">
@@ -1229,6 +1397,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="35"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox44">
@@ -1238,6 +1409,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="39"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox45">
@@ -1247,6 +1421,9 @@
                             </Property>
                             <Property name="horizontalTextPosition" type="int" value="10"/>
                             <Property name="label" type="java.lang.String" value="43"/>
+                            <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[5, 0]"/>
+                            </Property>
                           </Properties>
                         </Component>
                       </SubComponents>
